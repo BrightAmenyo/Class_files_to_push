@@ -1,0 +1,30 @@
+---
+title: "dimonds_push"
+author: "Bright Amenyo (5520368)"
+date: "2024-02-20"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+# Diamonds
+library(tidyverse)
+library(dplyr)
+
+# use dplyr commands to create a diamonds data tables
+#that shows columns price, x , y, and Z. Also price values 
+#should be greater than 17000
+head(diamonds)
+
+# Use dplyr commands to create a subset
+diamonds_subset <- diamonds %>%
+  select("price","x" , "y", "z") %>%
+  filter(price > 17000)
+
+# View the resulting data table
+print(diamonds_subset)
+```
+
