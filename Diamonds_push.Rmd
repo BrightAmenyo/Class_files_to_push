@@ -1,6 +1,6 @@
 ---
 title: "dimonds_push"
-author: "Bright Amenyo (5520368)"
+author: "Bright Amenyo -5520368"
 date: "2024-02-20"
 output: html_document
 ---
